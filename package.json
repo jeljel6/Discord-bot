@@ -1,0 +1,16 @@
+{
+  "name": "jeljel6-openai-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "discord.js": "^14.15.2",
+    "openai": "^4.56.0",
+    "pg": "^8.11.5"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "deploy:commands": "node scripts/deploy-commands.js"
+  }
+}
